@@ -1,0 +1,6 @@
+<dl>
+    {% for post in site.posts limit:5 %}
+    <dt>{{ post.date | date: "%B %-d, %Y" }}</dt>
+    <dd>{{ post.content }}</dd>
+    {% endfor %}
+</dl>
