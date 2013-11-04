@@ -15,6 +15,7 @@ body {
 
 a {
     text-decoration: none;
+    color: @orange;
 
     &:hover {
         text-decoration: underline;
@@ -69,7 +70,7 @@ a {
     li {
         float: left;
         padding: 47px 20px;
-        font-size: 1.4em;
+        font-size: 1.3em;
 
         a {
             color: #fff;
@@ -97,13 +98,14 @@ a {
     }
 }
 
-.button {
+a.button {
     display: inline-block;
     padding: 15px 30px;
     color: @white;
     .border-radius(7px);
     font-size: 1.7em;
     margin: 20px 10px;
+    color: @white;
 
     &:hover {
         text-decoration: none;
@@ -127,29 +129,12 @@ a {
 }
 
 #home-news {
-    .white-text;
-    margin-top: 40px;
-    margin-bottom: 40px;
-
-    h2 {
-        font-size: 3.0em;
-    }
-
-    dl {
-        font-size: 1.7em;
-    }
-
-    dt {
-        font-weight: bold;
-    }
-
-    dd {
-        margin-left: 20px;
-        margin-bottom: 10px;
-    }
+    margin-top: 20px;
+    font-size: 1.7em;
 }
 
 #sombrero {
+    margin-top: 30px;
     text-align: center;
 }
 
@@ -169,4 +154,15 @@ a {
     text-align: center;
     color: @white;
     font-size: 1.2em;
+}
+
+dl {
+    dt {
+        font-weight: bold;
+    }
+
+    dd {
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
 }
