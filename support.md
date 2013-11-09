@@ -81,7 +81,7 @@ If you think you've found a bug, you are encouraged to [report it][bugs].
 
 [html]: http://www.gnu.org/software/octave/doc/interpreter/index.html
 [pdf]: http://www.gnu.org/software/octave/octave.pdf
-[expectations]: http://www.gnu.org/software/octave/support-expectations.html
+[expectations]: /support-expectations/
 [commercial]: http://www.gnu.org/software/octave/commercial-support.html
 [print]: http://www.network-theory.co.uk/octave/manual
 [faq]: http://wiki.octave.org/FAQ
