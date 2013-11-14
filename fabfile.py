@@ -1,7 +1,7 @@
 from fabric.api import local
 
 def up():
-    local('jekyll --server --auto')
+    local('jekyll serve --watch')
 
 def deploy():
     local('jekyll')
