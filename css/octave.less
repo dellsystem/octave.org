@@ -74,7 +74,7 @@ a {
         font-size: 1.3em;
 
         a {
-            color: #fff;
+            color: @white;
 
             &:hover {
                 color: @lightestOrange;
@@ -143,7 +143,7 @@ a.button {
     background: @white;
     clear: both;
     padding: 30px 0;
-    font-size: 1.3em;
+    font-size: 1.4em;
 
     h1 {
         font-size: 2.5em;
@@ -156,8 +156,25 @@ a.button {
     }
 
     h2 {
+        font-size: 1.8em;
         margin: 10px 0;
         color: @darkerGrey;
+    }
+
+    h3 {
+        font-size: 1.5em;
+        margin: 7px 0;
+    }
+
+    h4 {
+        font-size: 1.1em;
+        margin: 5px 0;
+    }
+
+    ul {
+        margin-left: 25px;
+        margin-top: 15px;
+        margin-bottom: 15px;
     }
 }
 
@@ -175,5 +192,25 @@ dl {
 
     dd {
         margin-left: 20px;
+    }
+}
+
+pre {
+    background: @offWhite;
+    padding: 10px;
+    .border-radius(5px);
+}
+
+#mailing-list-search {
+    text-align: center;
+
+    input[type=text] {
+        border: 1px solid @lightGrey;
+        padding: 5px;
+
+        &:focus {
+            outline: 0;
+            border-color: @darkGrey;
+        }
     }
 }

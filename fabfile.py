@@ -5,4 +5,4 @@ def up():
 
 def deploy():
     local('jekyll')
-    local('scp -r _site/* socs:public_html/octave')
+    local('scp -r _site/* nimbus:octave')
